@@ -272,6 +272,11 @@ form button {
   background-color: #af9b81;
   color: white;
   font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+form button:hover {
+  background-color: #bb6a01;
 }
 
 /* footer */
@@ -771,5 +776,13 @@ footer p {
   .image-break-contact {
     height: 40vh;
     background-attachment: fixed;
+  }
+
+  #services {
+    text-align: center;
+  }
+
+  #services ul li {
+    list-style: none;
   }
 }
