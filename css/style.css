@@ -320,6 +320,13 @@ footer p {
   font-size: 1rem;
 }
 
+.create {
+  display: inline-block;
+  padding-top: 1.5rem;
+  letter-spacing: 1px;
+  border-bottom: 1px solid white;
+}
+
 @media (max-width: 991.98px) {
   .site-navbar {
     padding-top: 3rem;
