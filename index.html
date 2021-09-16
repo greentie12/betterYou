@@ -212,27 +212,22 @@
             <a class="tel" href="tel:+16572157434">657.215.7434</a>
           </p>
 
-          <form>
+          <form method="POST" data-netlify="true">
             <fieldset>
               <div class="info-container">
                 <div class="info-item">
                   <label for="name">Name*</label>
-                  <input type="text" id="name" name="user-name" required />
+                  <input type="text" id="name" name="name" required />
                 </div>
 
                 <div class="info-item">
-                  <label for="name">Email*</label>
-                  <input type="email" id="email" name="user-email" required />
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email" required />
                 </div>
 
                 <div class="info-item">
-                  <label for="name">Subject</label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="user-subject"
-                    required
-                  />
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required />
                 </div>
 
                 <div class="info-item">
